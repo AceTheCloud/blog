@@ -4260,13 +4260,13 @@ cite {
 }
 
 .post_content {
-  width: 960px;
-  max-width: 90%;
+  width: 1200px;
+  max-width: 95%;
   margin: 7rem auto 7rem;
 }
 
 .post {
-  background-color: #ffffff;
+  background-color: #f1ebebaf;
   margin-bottom: 1.5rem;
 }
 
