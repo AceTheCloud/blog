@@ -4266,7 +4266,7 @@ cite {
 }
 
 .post {
-  background-color: #f1ebebaf;
+  background-color: #FFFFFF;
   margin-bottom: 1.5rem;
 }
 
@@ -4295,14 +4295,14 @@ cite {
   font-size: 1.1rem;
   margin: 0;
   color: #ffffff;
-  background-color: rgba(94, 84, 238, 0.4);
+  background-color: rgba(119, 93, 180, 0.4);
 }
 
 .post header .post_title {
   padding: 1rem;
   font-size: 2rem;
   margin: 0;
-  background-color: rgba(206, 192, 238, 0.4);
+  background-color: rgba(119, 93, 180, 0.4);
   color: #ffffff;
 }
 
