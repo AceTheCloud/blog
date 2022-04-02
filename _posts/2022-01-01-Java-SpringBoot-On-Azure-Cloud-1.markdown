@@ -3,7 +3,7 @@ layout: post
 title: "Java for Azure Developers and Architects ( 1 of 10)"
 img: java.jpg
 date: 2020-08-03 12:55:00 +0300
-description: Java and SpringBoot on Azure Cloud (1 of 10)
+description: Java for Azure Developers and Architects (1 of 10)
 tag: [Java, SpringBoot, Azure]
 ---
 
@@ -24,24 +24,7 @@ Lets name our ecommerce application as "OnlineMart".
 To develop the API, we'll use the latest version of Spring Boot. We also use JPA and Azure MySQL database for the persistence side of things.
 We will develop an API using Spring Boot and a client application that will consume the API using Angular.
 
-### Java Application types
-
-#### Monolithic applications
-A monolithic application is an all in one solution that still fits for many projects. A monolithic application is a good start for prototyping and startups. It's simple to develop, debug, test, and deploy.
-
-Traditionally, monolithic applications run on application servers and scale the entire application as a whole.
-
-#### Microservices
-Today, in order to succeed, businesses are asked to adapt, fail fast, and expect the unexpected. To achieve a reduced time to market, more engineers get hired. But the outcome might be the opposite! It results in a higher time to market, because you have more communication effort when more engineers need to collaborate. The solution here is to divide and conquer.
-
-In a cross-functional team, you can deliver features as independently as possible. Each team should be responsible for its own dedicated part of the software.
-
-#### Batch jobs
-Some applications are intended to run briefly. They execute a particular workload, and then exit rather than wait for requests or user input. Batch jobs are a solution for this use case. Even though some batches can last for hours, sometimes jobs need to run once or at regular, scheduled intervals.
-
-#### Serverless architectures
-Functions are executed only on an event. A function is "triggered" by a specific type of event. Supported triggers include responding to changes in data, responding to messages, running on a schedule, or receiving an HTTP request.
-
+___
 
 ### Java Technologies
 
@@ -91,3 +74,34 @@ IBM WebSphere Application Server (WAS) is a flexible, security-rich Java server 
 Open Liberty is the community-driven, open-source version of WAS.
 
 Oracle GlassFish is the reference implementation of many Java EE web standards (including Servlet and JSP).
+
+___
+
+## Types of Java applications
+
+In this unit, we'll distinguish between the different types of server-side Java applications to help you choose a matching cloud solution.
+
+### Monolithic applications (Azure Infra Solution - Ex : AzureVMs Azure App Service )
+A monolithic application is an all in one solution that still fits for many projects. A monolithic application is a good start for prototyping and startups. It's simple to develop, debug, test, and deploy.
+
+Traditionally, monolithic applications run on application servers and scale the entire application as a whole.
+
+### Microservices (Azure Infra Solution - Ex Azure App Service, Azure Container Instances , Azure K8s Service)
+Today, in order to succeed, businesses are asked to adapt, fail fast, and expect the unexpected. To achieve a reduced time to market, more engineers get hired. But the outcome might be the opposite! It results in a higher time to market, because you have more communication effort when more engineers need to collaborate. The solution here is to divide and conquer.
+
+In a cross-functional team, you can deliver features as independently as possible. Each team should be responsible for its own dedicated part of the software.
+
+### Batch jobs (Azure Infra Solution - Ex Azure Function, Azure Data Factory, Apache Flink running on Azure VMs)
+Some applications are intended to run briefly. They execute a particular workload, and then exit rather than wait for requests or user input. Batch jobs are a solution for this use case. Even though some batches can last for hours, sometimes jobs need to run once or at regular, scheduled intervals.
+
+### Serverless architectures (Azure Infra Solution -  Azure Functions , Azure Logic Apps)
+Functions are executed only on an event. A function is "triggered" by a specific type of event. Supported triggers include responding to changes in data, responding to messages, running on a schedule, or receiving an HTTP request.
+
+___
+
+### Azure Spring Cloud
+Azure Spring Cloud lets you focus on building Spring Boot apps without managing infrastructure. 
+You can easily deploy your JARs or code, and it will automatically wire your apps with the Spring service runtime. 
+After you deploy the apps, you can easily monitor their performance, fix errors, and make improvements.
+Azure Spring Cloud is integrated into the Azure ecosystem and is ready to tackle enterprise workloads.
+
