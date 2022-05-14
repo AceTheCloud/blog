@@ -19,7 +19,7 @@ tag: [Java, SpringBoot, Azure]
        │   ├───frontend
        │   ├───java
        │   │   └───com
-       │   │       └───baeldung
+       │   │       └───acethecloud
        │   │           └───ecommerce
        │   │               │   EcommerceApplication.java
        │   │               ├───controller 
