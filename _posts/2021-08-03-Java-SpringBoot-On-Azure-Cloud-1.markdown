@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Java for Azure Developers and Architects ( 1 of 3)"
+title: "Java for Azure Developers and Architects ( 1 of 15) - Overview "
 img: java.jpg
 date: 2021-08-03 12:55:00 +0300
-description: Java for Azure Developers and Architects (1 of 3)
-tag: [Java, SpringBoot, Azure]
+description: Java for Azure Developers and Architects (1 of 15) - Overview
+tag: [Java, SpringBoot, Azure, SpringCloud]
 ---
 
-# Java for Azure Developers and Architects (Blog 1 of 3)
+# Java for Azure Developers and Architects (Blog 1 of 15)
 
 ### Why Java on Azure ?
 
