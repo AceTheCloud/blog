@@ -105,3 +105,4 @@ You can easily deploy your JARs or code, and it will automatically wire your app
 After you deploy the apps, you can easily monitor their performance, fix errors, and make improvements.
 Azure Spring Cloud is integrated into the Azure ecosystem and is ready to tackle enterprise workloads.
 
+Links to other posts of  __Java for Azure Developers and Architects Series__ :
