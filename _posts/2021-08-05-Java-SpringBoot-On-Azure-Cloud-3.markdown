@@ -46,10 +46,10 @@ az spring-cloud create -g "$AZ_RESOURCE_GROUP" -n "$AZ_SPRING_CLOUD_NAME" --sku 
 ```
 
 above command may take few seconds/minutes and then you can see output similar to the following output:
-![create spring cloud instance on azure](/assets/img/2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudCreation.png "create spring cloud instance on azure")
+![create spring cloud instance on azure](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudCreation.png "create spring cloud instance on azure")
 
 This is how it will be visible inside the Azure Portal instance
-![Spring Cloud in Portal](/assets/img/2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudinPortal.png "Spring Cloud in Portal")
+![Spring Cloud in Portal](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudinPortal.png "Spring Cloud in Portal")
 
 Run the following commands, so that we will be running Azure CLI commands referencing the same resource group and Azure Spring Cloud instance. So let's set them as defaults, so we don't have to specify them again
 
