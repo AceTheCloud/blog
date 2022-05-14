@@ -24,7 +24,7 @@ If you have more than one subscription like me , run following command to set sp
 az account set --subscription <SUBSCRIPTION_ID>
 ```
 
-![set default azure subscription](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/setAzureAccount.png "set default azure subscription")
+![set default azure subscription](/assets/img/setazureaccount.png "set default azure subscription")
 
 
 ### Create an Azure Spring Cloud instance
@@ -40,16 +40,14 @@ With these variables set, we can now create the Azure Resource group and  Azure 
 
 ```
 az group create --name $AZ_RESOURCE_GROUP --location westus
-```
-```
 az spring-cloud create -g "$AZ_RESOURCE_GROUP" -n "$AZ_SPRING_CLOUD_NAME" --sku standard
 ```
 
 above command may take few seconds/minutes and then you can see output similar to the following output:
-![create spring cloud instance on azure](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudCreation.png "create spring cloud instance on azure")
+![create spring cloud instance on azure](/assets/img/SpringCloudCreation.png "create spring cloud instance on azure")
 
 This is how it will be visible inside the Azure Portal instance
-![Spring Cloud in Portal](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/SpringCloudinPortal.png "Spring Cloud in Portal")
+![Spring Cloud in Portal](/assets/img/SpringCloudinPortal.png "Spring Cloud in Portal")
 
 Run the following commands, so that we will be running Azure CLI commands referencing the same resource group and Azure Spring Cloud instance. So let's set them as defaults, so we don't have to specify them again
 
@@ -57,9 +55,3 @@ Run the following commands, so that we will be running Azure CLI commands refere
 az configure --defaults group=$AZ_RESOURCE_GROUP
 az configure --defaults spring-cloud=$AZ_SPRING_CLOUD_NAME
 ```
-
-
-
-
-
-
