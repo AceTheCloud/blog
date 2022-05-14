@@ -24,7 +24,7 @@ If you have more than one subscription like me , run following command to set sp
 az account set --subscription <SUBSCRIPTION_ID>
 ```
 
-![set default azure subscription](/assets/img/2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/setAzureAccount.png "set default azure subscription")
+![set default azure subscription](2021-08-05-Java-SpringBoot-On-Azure-Cloud-3/setAzureAccount.png "set default azure subscription")
 
 
 ### Create an Azure Spring Cloud instance
